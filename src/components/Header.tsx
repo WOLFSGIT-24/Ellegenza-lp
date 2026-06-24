@@ -46,11 +46,11 @@ export default function Header() {
         style={{ height: 80 }}
       >
         <div className="max-w-[120rem] mx-auto px-6 md:px-10 h-full flex items-center justify-between gap-6">
-          {/* Logo */}
+          {/* Left: Second Logo */}
           <button onClick={() => scrollTo('hero')} className="shrink-0">
             <Image
-              src="https://static.wixstatic.com/media/cef78c_7c4ed4a92203401fb69f4db897b1f2e8~mv2.png"
-              alt="Nambiar Ellegenza Purple Crest"
+              src="https://static.wixstatic.com/media/cef78c_627630007c5f4f51a07fb2207aad5712~mv2.png"
+              alt="Nambiar Builders"
               className="h-10 md:h-12 w-auto object-contain"
             />
           </button>
@@ -74,7 +74,15 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-3 shrink-0">
+          {/* Right: Main Logo + Enquire */}
+          <div className="flex items-center gap-4 shrink-0">
+            <button onClick={() => scrollTo('hero')} className="hidden md:block shrink-0">
+              <Image
+                src="https://static.wixstatic.com/media/cef78c_3bb651eb0fbc4e36bd6308e8094fe0f5~mv2.png"
+                alt="Nambiar Ellegenza Purple Crest"
+                className="h-10 md:h-12 w-auto object-contain"
+              />
+            </button>
             <button
               onClick={() => window.dispatchEvent(new Event('open-enquiry-popup'))}
               className="hidden sm:flex items-center gap-2 rounded-full border border-background/30 text-background px-5 py-2 font-paragraph text-[10px] tracking-[0.15em] uppercase hover:border-accent-gold hover:text-accent-gold transition-all duration-300"

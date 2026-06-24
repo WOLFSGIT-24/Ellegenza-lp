@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-[120rem] mx-auto px-5 md:px-10 py-8 md:py-10">
         <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-0 md:justify-between">
           <Image
-            src="https://static.wixstatic.com/media/cef78c_7c4ed4a92203401fb69f4db897b1f2e8~mv2.png"
+            src="https://static.wixstatic.com/media/cef78c_3bb651eb0fbc4e36bd6308e8094fe0f5~mv2.png"
             alt="Nambiar Ellegenza Purple Crest"
             className="h-14 w-auto object-contain"
           />
