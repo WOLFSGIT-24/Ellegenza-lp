@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Nambiar Ellegenza Purple Crest – Where Life Meets Luxury',
   description: 'Luxury Villa Community off Sarjapur Road, Bengaluru. 75,000 Sq. Ft. Clubhouse, 3 KM Nature Trail, Private Elevators & French Style Balconies.',
   icons: {
-    icon: 'https://static.wixstatic.com/media/cef78c_d5521a9564014559892b6affe2c6e361~mv2.jpg',
+    icon: 'https://static.wixstatic.com/media/cef78c_3bb651eb0fbc4e36bd6308e8094fe0f5~mv2.png',
   },
 };
 

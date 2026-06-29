@@ -17,6 +17,7 @@ import CommunityLiving from '@/components/sections/CommunityLiving';
 import MasterPlan from '@/components/sections/MasterPlan';
 import FinalCTA from '@/components/sections/FinalCTA';
 import EnquiryPopup from '@/components/EnquiryPopup';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function HomePage() {
   const { scrollYProgress } = useScroll();
@@ -54,6 +55,7 @@ export default function HomePage() {
 
       <Footer />
       <EnquiryPopup />
+      <WhatsAppButton />
     </div>
   );
 }
